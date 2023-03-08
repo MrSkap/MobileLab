@@ -6,4 +6,19 @@
     <string name="on_boarding_intro">intro</string>
     <string name="next">Next</string>
     <string name="start">Let’s Start</string>
+
+    <string name="signUp">Sign up</string>
+    <string name="login">Log in</string>
+    <string name="name">Name</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="account">Create your account</string>
+    <string name="title_activity_home">home</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

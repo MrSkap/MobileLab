@@ -9,8 +9,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="text_color">#3C3A36</color>
     <color name="orange">#E3562A</color>
+    <color name="gray">#BEBAB3</color>
     <color name="light_gray">#D5D4D4</color>
     <color name="dark_gray">#78746D</color>
     <color name="blue">#65AAEA</color>
     <color name="primary">#E3562A</color>
+    <color name="dark_ink">#3C3A36</color>
 </resources>
