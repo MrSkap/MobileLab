@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MobileApp</string>
+    <string name="splash_string">Words Factory</string>
+    <string name="skip">Skip</string>
+    <string name="on_boarding_description">Quarantine is the perfect time to spend your \n day learning something new, from anywhere!</string>
+    <string name="on_boarding_intro">intro</string>
+    <string name="next">Next</string>
+    <string name="start">Let’s Start</string>
 </resources>
