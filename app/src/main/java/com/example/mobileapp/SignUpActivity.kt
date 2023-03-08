@@ -42,7 +42,7 @@ class SignUpActivity : AppCompatActivity() {
         }
     }
     private fun navigateToDictionary() {
-        //move to dictionary
+        startActivity(Intent(applicationContext, BottomNavigationActivity::class.java))
         finish()
     }
     private fun navigateToIntro() {
