@@ -1,5 +1,6 @@
 package com.example.mobileapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
@@ -64,8 +65,8 @@ class OnBoardActivity : AppCompatActivity() {
         }
     }
     private fun navigateToSignUpActivity() {
-//        startActivity(Intent(applicationContext, SignUpActivity::class.java))
-//        finish()
+        startActivity(Intent(applicationContext, SignUpActivity::class.java))
+        finish()
     }
 
     private fun setupIndicators() {
