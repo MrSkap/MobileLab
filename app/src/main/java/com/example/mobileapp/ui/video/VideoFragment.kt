@@ -28,10 +28,10 @@ class VideoFragment : Fragment() {
         _binding = FragmentVideoBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textNotifications
-        videoViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
+        binding.webView.getSettings().setAllowContentAccess(true);
+        binding.webView.getSettings().setAllowFileAccess(true);
+        binding.webView.loadUrl("https://learnenglish.britishcouncil.org/general-english/video-zone")
+
         return root
     }
 
