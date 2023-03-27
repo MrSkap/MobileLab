@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".ui.dictionary.DictionaryFragment">
 
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="40dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="41dp"
+        android:layout_weight="1"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <LinearLayout
         android:id="@+id/linearLayoutCommon"
         android:layout_width="343dp"
@@ -36,6 +47,7 @@
                 android:padding="16dp"
                 android:textFontWeight="400"
                 android:textSize="14sp" />
+
         </com.google.android.material.textfield.TextInputLayout>
 
         <LinearLayout
